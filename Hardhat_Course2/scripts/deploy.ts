@@ -20,6 +20,10 @@ async function main() {
   await greeter.deployed();
 
   console.log("Greeter deployed to:", greeter.address);
+
+  const dai = await ethers.getContractAt("IERC20","0xc4375b7de8af5a38a93548eb8453a498222c4ff2");
+  console.log(`dai.totalSupply: ${await dai.totalSupply()}`);
+  console.log(`dai.decimals: ${await dai.decimals()}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
