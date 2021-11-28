@@ -14,12 +14,24 @@ async function main() {
   // await hre.run('compile');
 
   // We get the contract to deploy
-  const Greeter = await ethers.getContractFactory("Greeter");
-  const greeter = await Greeter.deploy("Hello, Hardhat!");
+  // const Greeter = await ethers.getContractFactory("Greeter");
+  // const greeter = await Greeter.deploy("Hello, Hardhat!");
+  //
+  // await greeter.deployed();
+  //
+  // console.log("Greeter deployed to:", greeter.address);
+  //
+  // console.log(`before: greet() is: ${await greeter.greet()}`);
+  // await greeter.setGreeting('Hello, SetGreeting');
+  // console.log(`after: greeter() is: ${await greeter.greet()}`);
 
-  await greeter.deployed();
+  const dai = await ethers.getContractAt("IERC20","0xc4375b7de8af5a38a93548eb8453a498222c4ff2");
+  console.log(`dai.totalSupply: ${await dai.totalSupply()}`);
+  console.log(`dai.decimals: ${await dai.decimals()}`);
 
-  console.log("Greeter deployed to:", greeter.address);
+
+  const AggregatorV3Interface = await ethers.getContractAt("AggregatorV3Interface","0x9326BFA02ADD2366b30bacB125260Af641031331");
+  console.log(`${await AggregatorV3Interface.latestRoundData()}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
