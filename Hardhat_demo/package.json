@@ -2,7 +2,8 @@
   "name": "hardhat-project",
   "scripts": {
     "deploy": "npx hardhat run scripts/deploy.ts",
-    "clean" : "npx hardhat clean & npx hardhat compile"
+    "clean" : "npx hardhat clean",
+    "compile" : "npx hardhat compile"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",

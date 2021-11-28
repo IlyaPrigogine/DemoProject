@@ -29,7 +29,6 @@ async function main() {
   console.log(`dai.totalSupply: ${await dai.totalSupply()}`);
   console.log(`dai.decimals: ${await dai.decimals()}`);
 
-
   const AggregatorV3Interface = await ethers.getContractAt("AggregatorV3Interface","0x9326BFA02ADD2366b30bacB125260Af641031331");
   console.log(`${await AggregatorV3Interface.latestRoundData()}`);
 }
