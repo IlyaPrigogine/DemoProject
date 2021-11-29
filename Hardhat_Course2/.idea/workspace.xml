@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="259a124c-1f62-407d-b9b0-ff2c371b1636" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contracts/Interface/IERC20.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardhat.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hardhat.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/deploy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.ts" afterDir="false" />
-    </list>
+    <list default="true" id="259a124c-1f62-407d-b9b0-ff2c371b1636" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +26,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
@@ -102,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638063308401</updated>
-      <workItem from="1638063309974" duration="1029000" />
+      <workItem from="1638063309974" duration="1392000" />
     </task>
     <servers />
   </component>
@@ -114,26 +114,26 @@
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1496" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638063970231" />
-    <state width="618" height="982" key="GridCell.Tab.0.bottom" timestamp="1638064314941">
+    <state width="618" height="982" key="GridCell.Tab.0.bottom" timestamp="1638161884136">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="618" height="982" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638064314940" />
-    <state width="618" height="982" key="GridCell.Tab.0.bottom/0.25.1440.875/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638064007384" />
-    <state width="618" height="982" key="GridCell.Tab.0.center" timestamp="1638064314939">
+    <state width="618" height="982" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638064342837" />
+    <state width="618" height="982" key="GridCell.Tab.0.bottom/0.25.1440.875/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638161884136" />
+    <state width="618" height="982" key="GridCell.Tab.0.center" timestamp="1638161884135">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="618" height="982" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638064314939" />
-    <state width="618" height="982" key="GridCell.Tab.0.center/0.25.1440.875/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638064007383" />
-    <state width="618" height="982" key="GridCell.Tab.0.left" timestamp="1638064314939">
+    <state width="618" height="982" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638064342836" />
+    <state width="618" height="982" key="GridCell.Tab.0.center/0.25.1440.875/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638161884135" />
+    <state width="618" height="982" key="GridCell.Tab.0.left" timestamp="1638161884135">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="618" height="982" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638064314939" />
-    <state width="618" height="982" key="GridCell.Tab.0.left/0.25.1440.875/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638064007382" />
-    <state width="618" height="982" key="GridCell.Tab.0.right" timestamp="1638064314940">
+    <state width="618" height="982" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638064342835" />
+    <state width="618" height="982" key="GridCell.Tab.0.left/0.25.1440.875/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638161884135" />
+    <state width="618" height="982" key="GridCell.Tab.0.right" timestamp="1638161884136">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="618" height="982" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638064314940" />
-    <state width="618" height="982" key="GridCell.Tab.0.right/0.25.1440.875/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638064007383" />
+    <state width="618" height="982" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638064342837" />
+    <state width="618" height="982" key="GridCell.Tab.0.right/0.25.1440.875/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638161884136" />
     <state x="-1295" y="165" width="670" height="675" key="run.anything.popup" timestamp="1638064299655">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
