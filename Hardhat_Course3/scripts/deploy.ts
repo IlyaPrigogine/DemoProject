@@ -26,8 +26,9 @@ async function main() {
   console.log(`dai.totalSupply: ${await Dai.totalSupply()}`)
   console.log(`dai.decimals: ${await Dai.decimals()}`);
 
-  // const Aave = await ethers.getContractAt("IERC20","0x1d70fE7272F07E38e4bE71636e711bC007341273");
-  // console.log(`Aave.name: ${await Aave.name()}`);
+  const Aave = await ethers.getContractAt("IERC20","0x1d70fE7272F07E38e4bE71636e711bC007341273");
+  console.log(`Aave.name: ${await Aave.totalSupply()}`);
+  console.log(`Aave.decimals: ${await Aave.decimals()}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
