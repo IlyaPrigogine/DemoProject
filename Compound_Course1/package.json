@@ -3,6 +3,7 @@
   "scripts": {
     "clean" : "npx hardhat clean && npx hardhat compile",
     "deploy": "npx hardhat run scripts/deploy.ts",
+    "deploy kovan": "npx hardhat run scripts/deploy.ts --network kovan",
     "compile": "npx hardhat compile",
     "test" : "npx hardhat test"
   },

@@ -31,7 +31,7 @@ contract MyDefiProject {
 
     function invest() external {
         dai.approve(address(cDai), 10000000);
-        cDai.mint(10000);
+//        cDai.mint(10000);
     }
 
     function cashOut() external {
