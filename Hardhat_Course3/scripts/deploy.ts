@@ -29,6 +29,10 @@ async function main() {
   const Aave = await ethers.getContractAt("IERC20","0x1d70fE7272F07E38e4bE71636e711bC007341273");
   console.log(`Aave.name: ${await Aave.totalSupply()}`);
   console.log(`Aave.decimals: ${await Aave.decimals()}`);
+
+  const AggregatorV3 = await ethers.getContractAt("AggregatorV3Interface", "0x9326BFA02ADD2366b30bacB125260Af641031331");
+  console.log(`Aggregator.decimals: ${await AggregatorV3.decimals()}`);
+  console.log(`Aggregator.description: ${await AggregatorV3.description()}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
