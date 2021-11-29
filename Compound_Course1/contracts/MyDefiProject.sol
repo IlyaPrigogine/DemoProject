@@ -34,5 +34,27 @@ contract MyDefiProject {
         cDai.mint(10000);
     }
 
-    
+    function cashOut() external {
+        uint balance = cDai.balanceOf(address(this));
+        cDai.redeem(balance);
+    }
+
+    function borrow() external {
+        dai.approve(address (cDai), 10000);
+        cDai.mint(10000);
+
+        address [] markets = new address[];
+        markets[0] = cDai;
+        comptroller.enterMarkets(markets[0]);
+
+        cBat.borrow(100);
+    }
+
+    function payback() external {
+        bat.approve(address (cBat), 200);
+        cBat.repayBorrow(100);
+
+        uint balance = cDai.balanceOf(address(this));
+        cDai.redeem(balance);
+    }
 }
