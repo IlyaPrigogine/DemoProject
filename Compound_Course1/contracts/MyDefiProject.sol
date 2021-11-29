@@ -43,9 +43,9 @@ contract MyDefiProject {
         dai.approve(address (cDai), 10000);
         cDai.mint(10000);
 
-        address [] markets = new address[];
-        markets[0] = cDai;
-        comptroller.enterMarkets(markets[0]);
+        address[] memory markets = new address[](1);
+        markets[0] = address (cDai);
+        comptroller.enterMarkets(markets);
 
         cBat.borrow(100);
     }
