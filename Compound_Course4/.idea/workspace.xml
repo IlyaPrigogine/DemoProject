@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53de48c3-d9bd-4ea1-bfd4-cd72659a19d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Compound_Course3/deployments/kovan/Dai.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compound_Course3/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compound_Course3/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compound_Course3/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compound_Course3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Compound_Course3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compound_Course3/hardhat.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Compound_Course3/hardhat.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compound_Course3/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compound_Course3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Compound_Course3/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compound_Course3/scripts/deploy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Compound_Course3/scripts/deploy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/Token.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardhat.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hardhat.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/deploy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +15,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="xfohv6gy" />
   </component>
   <component name="ProjectId" id="21cxIoeogAWXv05Kv5qeMydsl2v" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,6 +33,24 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RunManager">
+    <configuration name="clean" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="clean" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.clean" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,11 +62,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638254099948</updated>
-      <workItem from="1638254101465" duration="309000" />
+      <workItem from="1638254101465" duration="741000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1638254815494">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.25.1440.875/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638254815494" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1638254815493">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.25.1440.875/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638254815493" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1638254815492">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.25.1440.875/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638254815492" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1638254815493">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.25.1440.875/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1638254815493" />
   </component>
 </project>
