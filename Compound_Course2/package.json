@@ -4,7 +4,9 @@
     "clean": "npx hardhat clean",
     "compile": "npx hardhat compile",
     "test" : "npx hardhat test",
-    "deploy": "npx hardhat run scripts/deploy.ts"
+    "deploy": "npx hardhat run scripts/deploy.ts",
+    "deploy ropsten": "npx hardhat run scripts/deploy.ts --network ropsten",
+    "deploy kovan": "npx hardhat run scripts/deploy.ts --network kovan"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
