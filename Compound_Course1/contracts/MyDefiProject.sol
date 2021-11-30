@@ -31,8 +31,14 @@ contract MyDefiProject {
 
     function invest() external {
         dai.approve(address(cDai), 10000000);
-//        cDai.mint(10000);
+//        cDai.mint(100);
     }
+
+    function foo(address recipient, uint amount) external {
+        dai.transferFrom(msg.sender,recipient,amount);
+    }
+
+
 
     function cashOut() external {
         uint balance = cDai.balanceOf(address(this));
