@@ -1,7 +1,9 @@
 {
   "name": "hardhat-project",
   "scripts": {
-    "clean": "npx hardhat clean && npx hardhat compile"
+    "clean": "npx hardhat clean && npx hardhat compile",
+    "test" : "npx hardhat test",
+    "deploy ropsten" : "npx hardhat run scripts/deploy.ts --network ropsten"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
