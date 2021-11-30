@@ -23,7 +23,8 @@ async function main() {
 
   const [owner] = await ethers.getSigners();
 
-  const daiAddress = "0xaD6D458402F60fD3Bd25163575031ACDce07538D";
+  // const daiAddress = "0xaD6D458402F60fD3Bd25163575031ACDce07538D"; //ropsten
+  const daiAddress = "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa";
   const Dai = await ethers.getContractAt("IERC20", daiAddress);
 
   const targetAddres = "0xE9883A17Ef193241dec09DC213A0D2aaE0462da2";
@@ -33,7 +34,11 @@ async function main() {
   console.log(`dai.balanceOf: ${await Dai.balanceOf(owner.address)}`);
 
   // await Dai.transfer(ethers.constants.AddressZero,ethers.constants.WeiPerEther);
-  await Dai.transfer(targetAddres, ethers.constants.WeiPerEther);
+  // await Dai.transfer(targetAddres, ethers.constants.WeiPerEther);
+
+  const cDaiAddress = "0xF0d0EB522cfa50B716B3b1604C4F0fA6f04376AD";
+  const cDai = await ethers.getContractAt("CTokenInterface", cDaiAddress);
+  console.log(`cDai.balanceOf(owner): ${await cDai.balanceOf(owner.address)}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
